@@ -11,6 +11,16 @@ $(function() {
     });
     $('#drawBtn').click(function() {
         console.log(pic_list);
+        if (pic_list.length != 0) {
+            let chosen = Math.floor(Math.random() * pic_list.length);
+            console.log(chosen);
+            $('#chosenPic').attr("src", "pic/" + pic_list[chosen]);
+            pic_list.splice(chosen, 1);
+            console.log(pic_list);
+        } else {
+            console.error("No Pictures Left!");
+            $('#chosenPic').attr("src", "img/question.png");
+        }
     });
 });
 
