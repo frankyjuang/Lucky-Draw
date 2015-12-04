@@ -22,4 +22,9 @@ body:after {
 
 #fileSelector {
   opacity: 0;
+  font-size: 20px;
+}
+
+.mui-btn--large {
+  font-size: 44px;
 }
