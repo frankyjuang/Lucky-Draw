@@ -10,3 +10,7 @@ body:after {
   opacity : 0.2;
   z-index: -1;
 }
+
+#fileSelector {
+  opacity: 0;
+}
