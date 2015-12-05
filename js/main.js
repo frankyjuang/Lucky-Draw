@@ -1,18 +1,23 @@
 "use strict";
 let pic_list = [];
 let prize_idx = 0;
-let prize_list = ["哲佑的幸福1",
-                  "哲佑的幸福2",
-                  "哲佑的幸福3",
-                  "哲佑的幸福4",
-                  "哲佑的幸福5",
-                  "哲佑的幸福6",
-                  "哲佑的幸福7",
-                  "哲佑的幸福8",
-                  "哲佑的幸福9",
-                  "哲佑的幸福10",
-                  "哲佑的幸福11",
-                  "哲佑的幸福to be conti."];
+let prize_list = ["耳罩耳機",
+                  "2KSound行動電源",
+                  "2KSound隨身音箱",
+                  "Adonit script 1/2",
+                  "Adonit script 2/2",
+                  "Adonit jot",
+                  "1028聖誕彩妝 1/5",
+                  "1028聖誕彩妝 2/5",
+                  "1028聖誕彩妝 3/5",
+                  "1028聖誕彩妝 4/5",
+                  "1028聖誕彩妝 5/5",
+                  "too cool for school 1/5",
+                  "too cool for school 2/5",
+                  "too cool for school 3/5",
+                  "too cool for school 4/5",
+                  "too cool for school 5/5",
+                  "Neogence 2"];
 $(function() {
     $('#fileSelector').change(function(evt) {
         let files = evt.target.files;
