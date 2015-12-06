@@ -2,15 +2,8 @@
 let pic_list = [];
 let prize_idx = 0;
 let prize_list = [
-	"[ALTEAM 耳罩式耳機]",
-	"[2KSOUND 行動電源]",
-	"[2KSOUND 入耳式耳機]",
-	"[adonit SCRIPT觸控筆]",
-	"[adonit JOT TOUCH]",
-	"[1028 聖誕彩妝組合]",
-	"[too cool for school 化妝品組]",
-	"[Neogence 美容療程]",
-	"[Neogence 瓶裝玻尿酸保濕]"
+	"[ABCDE 耳罩式耳機]",
+	"[FGHIJ 行動電源]"
 ];
 
 $(function() {
